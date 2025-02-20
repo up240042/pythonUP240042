@@ -23,7 +23,7 @@ print("El perimetro del triangulo es de: ", perimeter)
 ##6 Length and Width
 print("")
 Length = int(input("Ingresa el valor del largo: ")) ##Largo
-Width = int(input("Ingresa el valor del ancho: ")) #Ancho
+Width = int(input("Ingresa el valor del ancho: ")) ##Ancho
 area1 = Length * Width
 perimeter1 = 2 * (Length + Width)
 print("El perimetro es de: ", perimeter1)
@@ -40,15 +40,21 @@ print("Tu circunferencia es de: ", circunference)
 ##8 Slope
 print("")
 print("Interaccion de la pendiente:")
-pendiente = 2
-intY = -2
-intX = intY
-pen = ((pendiente * intX) + intY)
-print("La interacción es de: ", pen) 
+pendiente = 2 ##la pendiente  de la ecuacion
+intY = -2     ##Interaccion con eje y
+intX = intY / pendiente  ##Interaccion con eje x
+print("La pendiente de la ecuacion es: ", pendiente)
+print("La interacción es de: ", intX) 
 
 ##9 Euclidean distance
 print("")
-x = (2,2)
-y = (6,10)
-m = y/x
-print(m)
+x1 = 2
+x2 = 6
+y1 = 2
+y2 = 10
+distance = ((x2 - x1)**2 + (y2-y1)**2)**0.5
+print("La distancia entre los dos puntos es: ", distance)
+slope = (y2 - y1) / (x2 - x1)
+print("The slope is: ", slope)
+
+##10 
