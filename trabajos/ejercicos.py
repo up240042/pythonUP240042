@@ -57,4 +57,22 @@ print("La distancia entre los dos puntos es: ", distance)
 slope = (y2 - y1) / (x2 - x1)
 print("The slope is: ", slope)
 
-##10 
+##10 Compare
+print("")
+Compare = pendiente <= slope
+print("La diferencia entre las pendientes es de: ", Compare)
+
+##11 Value Y
+print("")
+vaX = int(input("Ingresa el valor de X "))
+vaY = (vaX**2 + (6 * vaX) + 9) 
+print("El valor de la variable Y es igual a ", "|", vaY, "|")
+
+##12
+print("")
+##python = int(input("Ingresa el valor de python "))
+##dragon = int(input("Ingresa el valor de dragon "))
+python = 5
+dragon = 3
+comp = python == dragon
+print("La comparación de los numeros fue: ", comp)
