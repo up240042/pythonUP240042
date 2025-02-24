@@ -76,3 +76,35 @@ python = 5
 dragon = 3
 comp = python == dragon
 print("La comparación de los numeros fue: ", comp)
+
+##13
+print("")
+##on = python != dragon
+##print("Contienen los mismo? ")
+on = ("python", "dragon")
+if  "dragon" in on:
+    print("on is in dragon")
+if  "python" in on:
+    print("on is in dragon")
+
+##14 Jargon
+print("")
+course = ("I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.")
+if "jargon" in course:
+    print("jargon is in the sentence")
+
+##15 
+print("")
+py = ("the tv is off")
+dra = ("the tv is off")
+if "on" in py and dra:
+    print("on is in the sentence")
+else: 
+    print("on isn´t in these sentens")
+
+##16
+print("")
+print("Una prueba de longitud con la funcion len")
+text = str(float("654864643215"))
+len(text)
+print("La longitud de la frase es de: ", len(text))
