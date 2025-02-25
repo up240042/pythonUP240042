@@ -108,3 +108,6 @@ print("Una prueba de longitud con la funcion len")
 text = str(float("654864643215"))
 len(text)
 print("La longitud de la frase es de: ", len(text))
+
+##17
+print("")
