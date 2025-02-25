@@ -72,9 +72,12 @@ print("El valor de la variable Y es igual a ", "|", vaY, "|")
 print("")
 ##python = int(input("Ingresa el valor de python "))
 ##dragon = int(input("Ingresa el valor de dragon "))
-python = 5
-dragon = 3
+python = str(55)
+dragon = str(3)
+
 comp = python == dragon
+print(len(python))
+print(len(dragon))
 print("La comparación de los numeros fue: ", comp)
 
 ##13
@@ -111,3 +114,41 @@ print("La longitud de la frase es de: ", len(text))
 
 ##17
 print("")
+par = int(input("Ingresa un numero: "))
+par = (par % 2)
+if par > 0:
+ print("Es numero inpar")
+
+else:
+    print("Es numero par")
+
+
+##18
+print("")
+floDiv = 7 // 3
+intPi = int(2.7)
+comDiv = floDiv == intPi
+
+print("El resultado de la division es:", comDiv)
+
+##19 
+print("")
+ty1 = type("10")
+ty2 = type(10)
+comTy = ty1 == ty2
+print("Los tipos de las unidades son iguales? ", comTy)
+
+##20 
+print("")
+typ1 = int(float("9.8"))
+typ2 = 10
+comTyp = typ1 == typ2
+print("Los tipos de las unidades son iguales? ", comTyp)
+
+##21
+print("")
+hours = int(input("Ingresa las horas que trabajaste: "))
+rate = int(input("Ingresa el valor de la tarifa por hora: "))
+salario = hours * rate
+print("Tu salario es de ", "|", salario, "|" )
+
