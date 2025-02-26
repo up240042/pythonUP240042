@@ -82,8 +82,7 @@ print("La comparación de los numeros fue: ", comp)
 
 ##13
 print("")
-##on = python != dragon
-##print("Contienen los mismo? ")
+
 on = ("python", "dragon")
 if  "dragon" in on:
     print("on is in dragon")
