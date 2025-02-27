@@ -54,3 +54,9 @@ print("*", swa)
 ##print(Cu1)
 
 ## 10 
+print("")
+hol = "Coding For All"
+sub = "For"
+print(hol.index(sub))
+print()
+

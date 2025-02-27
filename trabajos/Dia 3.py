@@ -152,6 +152,7 @@ salario = hours * rate
 print("Tu salario es de ", "|", salario, "|" )
 
 ##22 
+print("")
 years = int(input("Cuantos anos tienes? "))
 seconds = (365 * (3600*24))
 total = (years * seconds)
