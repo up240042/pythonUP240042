@@ -49,9 +49,12 @@ print("*", ti)
 print("*", swa)
 
 ## 9
-##Cu = com2.split("")
-##Cu1 = com2[Cu + 1:]
-##print(Cu1)
+print("")
+print("Ejercicio 9")
+Cu = "Coding For All"
+op = Cu.strip("All")
+
+print(op)
 
 ## 10 
 print("")
@@ -92,6 +95,87 @@ print(se1)
 print("")
 print("Ejercicio 15")
 co = "Coding For All"
-#se2 = co.split()
-#se2 = sduir aqui
-print()
+se2 = co.split() #Divide la oracion rn partes
+se3 = se2.index("Coding") #encuentra el valor de la posicion de la palabra indicada
+print(se3)
+
+co = "Coding For All"
+se2 = co[0] # Indica la letra en esa posicion
+print(se2)
+
+## 16
+print("")
+print("Ejercicio 16")
+co = "Coding For All"
+se4 = co.split()
+se5 = se4.index("All")
+print(se5)
+
+co = "Coding_For_All"
+se4 = co[13]
+print(se4)
+
+## 17
+print("")
+print("Ejercicio 17")
+co = "Coding For All"
+se4 = co[10]
+print("El valor de la posicion es: ")
+print(se4)
+
+# 18
+print("")
+print("Ejercicio 18")
+pfe= "Python For Everyone"
+con = pfe[0] 
+con1 = pfe[7] 
+con2 = pfe[11]
+print(con + con1 + con2)
+
+# 19
+print("")
+print("Ejercicio 19")
+n = print("Coding For All")
+n =  pfe[0] + pfe[7] +  pfe[11]
+print(n)
+
+# 20
+print("")
+print("Ejercicio 20")
+nex = "Coding For All"
+print(nex)
+ocu = nex.find("C") #Encuentra el la primera posicion de la letra
+print(ocu)
+
+# 21
+print("")
+print("Ejercicio 21")
+print(nex)
+oco = nex.find("F")
+print(oco)
+
+# 22
+print("")
+print("Ejercicio 22")
+nox = "Coding For All"
+print("Ultima aparicion de:", "l en ", nox)
+ul = nox.rfind("l") #Encuentra la ultima vez que una letra aparecio
+print(ul)
+
+# 23
+print("")
+print("Ejercicio 23")
+sen = "You cannot end a sentence with because because because is a conjunction"
+print("Primera aparicion de", "because en:", sen)
+bea = sen.find("beacause")
+print(bea)
+
+# 24
+print("")
+print("Ejercicio 24")
+sen1 = "You cannot end a sentence with because because because is a conjunction"
+print("Ultima aparicion de", "because en:", sen1)
+bea1 = sen1.rfind("beacause")
+print(bea1)
+
+# 25
