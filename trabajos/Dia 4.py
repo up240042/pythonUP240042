@@ -182,7 +182,38 @@ print(bea1)
 print("")
 print("Ejercicio 25")
 tex = "You cannot end a sentence with because because because is a conjunction"
-#print(tex)
-cor = tex.strip("because because because")
+print(tex)
+cor = tex.replace("because because because", "")
 print(cor)
 
+# 26
+print("")
+print("Ejercicio 26")
+tex1= "You cannot end a sentence with because because because is a conjunction"
+print(tex1)
+enc = tex1.find("because")
+enco = tex1.index("because")
+print(enc)
+print(enco)
+
+# 27
+print("")
+print("Ejercicio 27")
+tex = "You cannot end a sentence with because because because is a conjunction"
+print(tex)
+cor = tex.replace("because because because", "")
+print(cor)  
+
+# 28
+print("")
+print("Ejercicio 28")
+print("¿'Coding For All' comienza con una subcadena Coding?")
+tcod = "Coding For All"
+#print(tcod)
+codi = tcod.startswith("Coding")
+print(codi)
+
+# 29
+print("")
+print("Ejercicio 29")
+print("¿'Coding For All' termina con una codificación de subcadena?")
