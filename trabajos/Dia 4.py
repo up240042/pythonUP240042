@@ -179,3 +179,10 @@ bea1 = sen1.rfind("beacause")
 print(bea1)
 
 # 25
+print("")
+print("Ejercicio 25")
+tex = "You cannot end a sentence with because because because is a conjunction"
+#print(tex)
+cor = tex.strip("because because because")
+print(cor)
+
