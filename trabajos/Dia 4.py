@@ -210,10 +210,45 @@ print("Ejercicio 28")
 print("¿'Coding For All' comienza con una subcadena Coding?")
 tcod = "Coding For All"
 #print(tcod)
-codi = tcod.startswith("Coding")
+codi = tcod.startswith("Coding") #Revisa si la cadena comineza con la palabra ingresada
 print(codi)
 
 # 29
 print("")
 print("Ejercicio 29")
 print("¿'Coding For All' termina con una codificación de subcadena?")
+tcod = "Coding For All"
+cod2 = tcod.endswith("Coding") #Revisa si la cadena termina con la palabra ingresada
+print(cod2)
+
+# 30
+print("")
+print("Ejercicio 30")
+print("Elimina los espacios en la oracion: '   Coding For All      '")
+espa = "   Coding For All      "
+print(espa)
+reco = espa.strip()
+print(reco)
+
+# 31
+print("")
+print("Ejercicio 31")
+print("Identificador del correcto")
+ind = "30DaysOfPython"
+ind2 = "thirty_days_of_python"
+indCo = ind.isidentifier()
+indCo1 = ind2.isidentifier()
+print(indCo)
+print(indCo1)
+print("###############################################")
+# Opcion más resumida de programar 
+print(ind.isidentifier())
+print(ind2.isidentifier())
+
+# 32
+print("")
+print("Ejercicio 32")
+unir = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print("# " .join(unir))
+
+# 33
