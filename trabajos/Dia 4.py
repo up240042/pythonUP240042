@@ -252,3 +252,37 @@ unir = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
 print("# " .join(unir))
 
 # 33
+print("")
+print("Ejercicio 33")
+#salLIne = "I am enjoying this challenge. \nI just wonder what is next."
+#print(salLIne)
+print("I am enjoying this challenge. \nI just wonder what is next.")
+
+# 34 
+print("")
+print("Ejercicio 34")
+
+print("Name\tAge\tCountry\tCity")
+print("Asabeneh\t250\tFinland\tHelsinki")
+
+# 35
+print("")
+print("Ejercicio 35")
+radius = 10
+area = 3.1416 * radius ** 2
+print("The area of a circle with radius %d . However the area is %f" %(radius, area))
+ 
+# 36 
+print("")
+print("Ejercicio 36")
+
+a = 8
+b = 6
+
+print('{} + {} = {}'.format(a, b, a + b))
+print('{} - {} = {}'.format(a, b, a - b))
+print('{} * {} = {}'.format(a, b, a * b))
+print('{} / {} = {:.2f}'.format(a, b, a / b)) # limits it to two digits after decimal
+print('{} % {} = {}'.format(a, b, a % b))
+print('{} // {} = {}'.format(a, b, a // b))
+print('{} ** {} = {}'.format(a, b, a ** b))
